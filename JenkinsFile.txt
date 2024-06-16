@@ -21,7 +21,7 @@ pipeline {
             steps {
                 echo 'Starting build and test process'
                 // Clean the project and install dependencies without running tests
-                bat 'mvn clean package'
+                bat 'mvn clean install'
             }
         }
         

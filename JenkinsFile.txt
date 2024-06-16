@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+    tools {
+
+        // Ensures Maven is available for building and testing the project
+
+        maven 'Default' // Ensure Maven is named and configured in Jenkins' Global Tool Configuration
+
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout code from Git repository
+                git branch: 'master', 
+                    url: 'https://github.com/Gaurav2119/Flipkart_Test_Automation_Selenium_Java.git'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                echo 'Starting build and test process'
+                // Clean the project and install dependencies without running tests
+                bat 'mvn clean package'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                // Run unit tests and Cucumber tests
+                bat 'mvn test'
+            }
+        }
+    }
+    
+    post {
+        always {
+            // Clean up any temporary files or resources
+            cleanWs()
+        }
+    }
+}

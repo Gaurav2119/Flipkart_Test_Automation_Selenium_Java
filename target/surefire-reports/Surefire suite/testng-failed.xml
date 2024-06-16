@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.TestCase17_VerifyCartPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyCartPageIsVisible"/>
+          <include name="verifyHomePageIsVisibleSuccessfully"/>
+        </methods>
+      </class> <!-- tests.TestCase17_VerifyCartPage -->
+      <class name="tests.TestCase3_TravelsPageVisible">
+        <methods>
+          <include name="verifyTravelsPageIsVisibleSuccessfully"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestCase3_TravelsPageVisible -->
+      <class name="tests.TestCase10_VerifyRequiredFieldAndSellerDashboardTitleIsVisible">
+        <methods>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="verifyTitleAndFieldsAreVisible"/>
+        </methods>
+      </class> <!-- tests.TestCase10_VerifyRequiredFieldAndSellerDashboardTitleIsVisible -->
+      <class name="tests.TestCase7_BookRoundTripFlight">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyThatBookFlightRequiresLogin"/>
+        </methods>
+      </class> <!-- tests.TestCase7_BookRoundTripFlight -->
+      <class name="tests.TestCase1_HomePageVisible">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageIsVisibleSuccessfully"/>
+        </methods>
+      </class> <!-- tests.TestCase1_HomePageVisible -->
+      <class name="tests.TestCase5_SearchRoundTripFlight">
+        <methods>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="verifySearchFlightIsVisible"/>
+        </methods>
+      </class> <!-- tests.TestCase5_SearchRoundTripFlight -->
+      <class name="tests.TestCase16_SortProductByPriceLowToHigh">
+        <methods>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="searchForProduct"/>
+          <include name="verifyHomePageIsVisibleSuccessfully"/>
+        </methods>
+      </class> <!-- tests.TestCase16_SortProductByPriceLowToHigh -->
+      <class name="tests.TestCase9_VerifySellerPageIsVisibleAndTitleIsAsExpected">
+        <methods>
+          <include name="beforeSuiteSetup"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyThatSellerPageIsVisible"/>
+        </methods>
+      </class> <!-- tests.TestCase9_VerifySellerPageIsVisibleAndTitleIsAsExpected -->
+      <class name="tests.TestCase4_SearchOneWayFlight">
+        <methods>
+          <include name="verifySearchFlightIsVisible"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestCase4_SearchOneWayFlight -->
+      <class name="tests.TestCase18_ProductWishlistRequiresLogin">
+        <methods>
+          <include name="searchForProduct"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageIsVisible"/>
+        </methods>
+      </class> <!-- tests.TestCase18_ProductWishlistRequiresLogin -->
+      <class name="tests.TestCase14_VerifyAppliancePageIsVisible">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyAppliancesPageIsVisible"/>
+        </methods>
+      </class> <!-- tests.TestCase14_VerifyAppliancePageIsVisible -->
+      <class name="tests.TestCase13_VerifyMobilePhonePageProductDetails">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageIsVisibleSuccessfully"/>
+          <include name="verifyProductDetailsIsDisplayed"/>
+          <include name="verifyMobilePhonePageIsVisibleSuccessfully"/>
+        </methods>
+      </class> <!-- tests.TestCase13_VerifyMobilePhonePageProductDetails -->
+      <class name="tests.TestCase12_VerifyTermsAndConditionPageTitle">
+        <methods>
+          <include name="verifyTermsAndConditionPageTitle"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestCase12_VerifyTermsAndConditionPageTitle -->
+      <class name="tests.TestCase6_BookOneWayFlight">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="tearDown"/>
+          <include name="verifyThatBookFlightRequiresLogin"/>
+        </methods>
+      </class> <!-- tests.TestCase6_BookOneWayFlight -->
+      <class name="tests.TestCase8_VerifySupportPageTopics">
+        <methods>
+          <include name="verifyHelpTopics"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestCase8_VerifySupportPageTopics -->
+      <class name="tests.TestCase11_SearchProduct">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="SearchProductAndVerifyProductIsSorted"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestCase11_SearchProduct -->
+      <class name="tests.TestCase15_SearchGroceryItemInGroceryPage">
+        <methods>
+          <include name="enterPincode"/>
+          <include name="searchForProduct"/>
+          <include name="verifyHomePageIsVisibleSuccessfully"/>
+          <include name="setUp"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="verifyGroceryPageIsVisibleSuccessfully"/>
+        </methods>
+      </class> <!-- tests.TestCase15_SearchGroceryItemInGroceryPage -->
+      <class name="tests.TestCase2_VerifyHomePageTitle">
+        <methods>
+          <include name="beforeSuiteSetup"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitle"/>
+        </methods>
+      </class> <!-- tests.TestCase2_VerifyHomePageTitle -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -178,5 +178,27 @@ mvn test
 7. Verify wishlist cannot be added without login
 
 ### Test Case 19: Add product to cart
+1. Launch browser
+2. Navigate to "https://www.flipkart.com/"
+3. Verify that home page is visible successfully
+4. Enter product name in search input and click search button
+5. Verify 'SEARCHED PRODUCTS' is visible
+6. Click on first product
+7. Verify that detail is visible: product name, price
+8. Add product to cart
+9. Verify that cart page is visible
+10. Verify that product added to cart
 
-### Test Case 20: Remove product from cart
+### Test Case 20: Place order for added product in cart
+1. Launch browser
+2. Navigate to "https://www.flipkart.com/"
+3. Verify that home page is visible successfully
+4. Enter product name in search input and click search button
+5. Verify 'SEARCHED PRODUCTS' is visible
+6. Click on first product
+7. Verify that detail is visible: product name, price
+8. Add product to cart
+9. Verify that cart page is visible
+10. Verify that product added to cart
+11. Click on place order button
+12. Verify place order requires details
